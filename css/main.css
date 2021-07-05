@@ -27,11 +27,11 @@ nav {
 
 a {
   color:#8f2440;
+  text-decoration: none;
 }
 
 a:link {
   color: #8f2440;
-  text-decoration: none;
 }
 
 a:hover {
@@ -44,7 +44,7 @@ img {
 }
 
 nav ol {
-   list-style-type: : none;
+   list-style-type: none;
  }
 
 h2 {
