@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  color: #222;
 }
 
 *, *::before, *::after {
@@ -23,6 +24,10 @@ nav {
   color: #8f2440;
 }
 
+a {
+  color:#8f2440;
+}
+
 a:link {
   color: #8f2440;
   text-decoration: none;
@@ -31,6 +36,10 @@ a:link {
 a:hover {
   color: #3f1622;
   text-decoration: underline;
+}
+
+img {
+  width: 100%;
 }
 
 nav ol {
@@ -44,4 +53,34 @@ h2 {
 figcaption {
   text-align: center;
   font-style: italic;
+}
+
+.germination {
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+.review {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+footer + cite {
+  font-size: 0.8rem;
+}
+
+section li {
+  list-style: lower-greek;
+}
+
+section p {
+  font-style: italic;
+}
+
+dt {
+  font-weight: bold;
+}
+
+aside li {
+  list-style: circle;
 }
