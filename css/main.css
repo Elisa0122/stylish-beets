@@ -40,7 +40,10 @@ a:hover {
 }
 
 img {
-  width: 100%;
+  display: block;
+  margin-left: none;
+  margin-right: none;
+  width: 80%;
 }
 
 nav ol {
