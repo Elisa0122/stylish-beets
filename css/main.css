@@ -10,6 +10,7 @@ html {
 body {
   background-color: #c9b5ab;
   font-family:"PT Serif", serif;
+  font-weight: normal;
   line-height: 1.5;
 }
 
@@ -43,7 +44,7 @@ img {
 }
 
 nav ol {
-   list-style: none;
+   list-style-type: : none;
  }
 
 h2 {
