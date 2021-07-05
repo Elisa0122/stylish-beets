@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #c9b5ab;
+  font-family:"PT Serif", serif;
+  line-height: 1.5;
+}
+
+h1{
+  font-family: "PT Sans",sans-serif;
+  color: #3f1622;
+}
+
+nav {
+  font-family: "PT Sans",sans-serif;
+  font-size: 1.5rem;
+  color: #8f2440;
+}
+
+a:link {
+  color: #8f2440;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
+}
+
+nav ol {
+   list-style: none;
+ }
+
+h2 {
+  color: #3f1622;
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+}
